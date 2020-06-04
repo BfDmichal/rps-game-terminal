@@ -114,7 +114,7 @@ public class Logic {
 
     private String checkMove(String move) {
         while (!(move.equals("1") || move.equals("2") || move.equals("3"))) {
-            System.out.println("set your move: ");
+            System.out.println("Wrong key, available keys: '1';'2';'3' set your move again: ");
             move = scanner.nextLine();
         }
         return move;

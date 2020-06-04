@@ -11,7 +11,7 @@ public class GameCommunicant {
         Scanner scanner = new Scanner(System.in);
         System.out.println("set your name:");
         String name = scanner.nextLine();
-        System.out.println("set max win bound");
+        System.out.println("set max win rounds:");
         int condition = scanner.nextInt();
         System.out.println("Information about game: " + "\nkey '1' = rock");
         System.out.println("key '2' = paper");
